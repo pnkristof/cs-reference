@@ -1,0 +1,20 @@
+Tha basic function of the App is to generate a Bitmap (.bmp) file from a .hgt file.
+
+An HGT file contains height data of a territory. 
+It is stored in signed two byte integers, in big-endian order.
+
+More about HGT: https://fileinfo.com/extension/hgt
+
+You can run the app from console, with three arguments. If you run it without arguments,
+it will ask for them during running.
+
+The arguments are:
+1. input.hgt - the HGT file
+2. elevation threshold (int) - an integer (meter), below the value there is water
+and land above
+3. output.bmp - the name of the output bitmap file 
+
+The bitmap file will be two-colored: blue and green. 
+The part below the treshold will be blue, above will be green (higher is darker).
+
+The bin/Debug directory contains samples, exactly the lake Balaton, with treshold 100.
