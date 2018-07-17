@@ -1,0 +1,30 @@
+This tiny App contains a set of locations, like contries, rivers, cities and more, 
+stored in an XML file.
+There is 8 tasks, all of them is some kind of filtering.
+For most of the solutions, I used Linq.
+
+The tasks are the following:
+
+1st Task
+Find the contry with the highest density.
+
+2nd Task
+Find all the democratic contries.
+
+3rd Task
+Count the ethnic and religional groups of every country, and order it descending.
+
+4th Task
+Measure the borders of the countries.
+
+5th Task
+Count the occurence of every river and order it descending.
+
+6th Task
+Contries with the most water occurence in them.
+
+7th Task
+Find rivers end in a see.
+
+8th Task
+Get all the ethnic groups.
